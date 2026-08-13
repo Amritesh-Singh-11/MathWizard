@@ -1,0 +1,62 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mathwizard-mongo
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_DATABASE=mathwizard
+    volumes:
+      - ./mongo-init/init-db.js:/docker-entrypoint-initdb.d/init-db.js:ro
+      - mongo-data:/data/db
+    networks:
+      - mathwizard-net
+
+  math-engine:
+    build:
+      context: ./math-engine
+      dockerfile: Dockerfile
+    container_name: mathwizard-math-engine
+    ports:
+      - "8000:8000"
+    networks:
+      - mathwizard-net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: mathwizard-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - MONGO_HOST=mongodb
+      - MONGO_PORT=27017
+      - MATH_ENGINE_HOST=math-engine
+      - MATH_ENGINE_PORT=8000
+    depends_on:
+      - mongodb
+      - math-engine
+    networks:
+      - mathwizard-net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: mathwizard-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - mathwizard-net
+
+networks:
+  mathwizard-net:
+    driver: bridge
+
+volumes:
+  mongo-data:

@@ -1,0 +1,13 @@
+com\mathwizard\model\CalculationResponse.class
+com\mathwizard\model\Example.class
+com\mathwizard\model\CalculationRequest.class
+com\mathwizard\MathWizardApplication.class
+com\mathwizard\model\Topic.class
+com\mathwizard\model\Formula.class
+com\mathwizard\service\TopicService.class
+com\mathwizard\repository\FormulaRepository.class
+com\mathwizard\repository\TopicRepository.class
+com\mathwizard\repository\ExampleRepository.class
+com\mathwizard\service\CalculationService.class
+com\mathwizard\controller\CalculationController.class
+com\mathwizard\controller\TopicController.class

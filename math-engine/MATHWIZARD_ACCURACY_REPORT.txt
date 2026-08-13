@@ -1,0 +1,100 @@
+
+==================================================
+            MATHWIZARD ACCURACY REPORT            
+==================================================
+Total Tests Run: 178
+Passed:          178
+Failed:          0
+Overall Accuracy: 100.00%
+
+--------------------------------------------------
+TOPIC-WISE ACCURACY BREAKDOWN
+--------------------------------------------------
+Limits                           | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Continuity                       | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Differentiation                  | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Higher Order Derivatives         | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Partial Differentiation          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Implicit Differentiation         | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Parametric Differentiation       | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Maxima and Minima                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Taylor Series                    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Maclaurin Series                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Indefinite Integration           | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Definite Integration             | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Double Integration               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Triple Integration               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Total Differentiation            | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Matrix Addition                  | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Matrix Subtraction               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Matrix Multiplication            | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Matrix Transpose                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Matrix Inverse                   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Determinant Calculation          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Rank of Matrix                   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Gaussian Elimination             | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Eigenvalues                      | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Eigenvectors                     | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Linear Equation Solver           | Total: 4 | Passed: 4 | Accuracy: 100.0%
+Vector Addition                  | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Vector Subtraction               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Vector Magnitude                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Dot Product                      | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Cross Product                    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Scalar Projection                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Vector Projection                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Scalar Triple Product            | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Vector Triple Product            | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Line Equation in 3D              | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Plane Equation                   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+First Order Differential Equations | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Separable Differential Equations | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Linear Differential Equations    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Bernoulli Equation               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Exact Differential Equation      | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Second Order Differential Equations | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Higher Order Differential Equations | Total: 2 | Passed: 2 | Accuracy: 100.0%
+System of Differential Equations | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Partial Differential Equations   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Complex Number Addition          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Complex Number Multiplication    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Complex Division                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Polar Form                       | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Euler Form                       | Total: 2 | Passed: 2 | Accuracy: 100.0%
+De Moivre Theorem                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Complex Roots                    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Laplace Transform                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Inverse Laplace Transform        | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Fourier Series                   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Fourier Transform                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Z Transform                      | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Probability Calculation          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Permutations                     | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Combinations                     | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Mean                             | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Median                           | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Mode                             | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Variance                         | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Standard Deviation               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Normal Distribution              | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Regression Analysis              | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Bisection Method                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Newton Raphson Method            | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Secant Method                    | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Euler Method                     | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Runge Kutta Method               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Gauss Elimination                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Gauss Seidel Method              | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Linear Programming               | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Gradient Descent                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Convex Optimization              | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Simplex Method                   | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Distance Between Points          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Midpoint Formula                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Slope Calculation                | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Equation of Line                 | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Circle Equation                  | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Parabola                         | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Ellipse                          | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Hyperbola                        | Total: 2 | Passed: 2 | Accuracy: 100.0%
+Conic Sections                   | Total: 2 | Passed: 2 | Accuracy: 100.0%

@@ -1,0 +1,13 @@
+D:\MathWizard\backend\src\main\java\com\mathwizard\service\CalculationService.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\model\CalculationRequest.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\model\CalculationResponse.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\model\Example.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\repository\TopicRepository.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\MathWizardApplication.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\service\TopicService.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\repository\FormulaRepository.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\model\Topic.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\model\Formula.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\controller\CalculationController.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\repository\ExampleRepository.java
+D:\MathWizard\backend\src\main\java\com\mathwizard\controller\TopicController.java
