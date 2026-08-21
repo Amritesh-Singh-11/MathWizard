@@ -1,5 +1,7 @@
 package com.mathwizard.model;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 import java.util.Map;
 
@@ -7,6 +9,9 @@ public class CalculationResponse {
     private String answer;
     private String latexAnswer;
     private List<String> steps;
+
+    @JsonProperty("visualizationData")
+    @JsonAlias({"visualization", "visualizationData"})
     private Map<String, Object> visualizationData;
 
     public CalculationResponse() {
@@ -50,4 +55,13 @@ public class CalculationResponse {
     public void setVisualizationData(Map<String, Object> visualizationData) {
         this.visualizationData = visualizationData;
     }
+
+    public Map<String, Object> getVisualization() {
+        return visualizationData;
+    }
+
+    public void setVisualization(Map<String, Object> visualization) {
+        this.visualizationData = visualization;
+    }
 }
+

@@ -79,6 +79,8 @@ def solve_math(req: MathSolveRequest):
         res["success"] = True
         res["topic"] = topic_id
         res["input"] = {"expression": expr, "params": params}
+        if "visualization" in res:
+            res["visualizationData"] = res["visualization"]
 
         return res
 

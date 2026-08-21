@@ -38,7 +38,11 @@ export async function calculateMath(req: CalculationRequestDTO): Promise<Calcula
 }
 
 function normalizeResponse(data: any, req: CalculationRequestDTO): CalculationResponseDTO {
-  const vizData = data.visualization || data.visualizationData || { type: 'NONE' };
+  const vizData = (data.visualization && typeof data.visualization === 'object' && Object.keys(data.visualization).length > 0)
+    ? data.visualization
+    : (data.visualizationData && typeof data.visualizationData === 'object' && Object.keys(data.visualizationData).length > 0)
+    ? data.visualizationData
+    : { type: 'NONE' };
 
   return {
     answer: data.answer || 'Calculation completed',

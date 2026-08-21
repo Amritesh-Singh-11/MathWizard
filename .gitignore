@@ -1,0 +1,69 @@
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+.mvn/
+mvnw
+mvnw.cmd
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+venv/
+.venv/
+env/
+ENV/
+
+# Environment and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+
+# Temp & Scratch
+scratch/
+tmp/

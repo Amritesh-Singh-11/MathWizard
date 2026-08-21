@@ -65,6 +65,7 @@ export const VisualizationRenderer: React.FC<VisualizationRendererProps> = ({
 
       case 'FUNCTION_2D_TANGENT':
       case 'FUNCTION_2D':
+      case 'FUNCTION_2D_COMPARISON':
       case '2D_PLOT':
       case 'IMPLICIT_DIFFERENTIATION':
       case 'PARAMETRIC_DIFFERENTIATION':
@@ -135,6 +136,7 @@ export const VisualizationRenderer: React.FC<VisualizationRendererProps> = ({
       case 'DISTRIBUTION_CURVE':
       case 'NORMAL_DIST':
       case 'NORMAL_DISTRIBUTION':
+      case 'STATISTICS_DISTRIBUTION':
         return <DistributionCurve data={data} title={title} type="DISTRIBUTION_CURVE" />;
 
       case 'HISTOGRAM':
